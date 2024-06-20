@@ -8,13 +8,34 @@
 <body>
 <h1>RADIO BUTTONS</h1>
 <p>What is you favorite desert</p>
-<form>
+<form action="/action_page.php" target="_blank">
 	<input type="radio" id="cake" name="fav_snack" value="Cake">
 	<label for="cake">Cake</label><br>
 	<input type="radio" id="ice cream" name="fav_snack" value="Ice cream">
 	<label for="ice cream">Ice cream</label><br>
 	<input type="radio" id="biscuit" name="fav_snack" value="Biscuit">
-	<label for="biscuit">Biscuit</label>
+	<label for="biscuit">Biscuit</label><br><br>
+	<input type="submit"><br><br>
+	  <form action="/action_page.php" target="_blank" size="2">
+	  	<label for="cars">Choose a car:</label>
+  <select id="cars" name="cars" size="4" multiple>
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+  </select><br>
+  <br><br>
+  <input type="submit" value="Submit">
+</form><br><br>
+<form action="/action_page.php" target="_blank">
+	<label for="username">Username</label><br>
+	<input type="name" name="Username" value="Username"><br><br>
+	<label for="password">Password</label><br>
+	<input type="password" name="Password" value="Password"><br><br>
+	<input type="submit" name="submit">
+	<input type="reset" value="Reset">
+</form>
+
 </form>
 </body>
 </html>
